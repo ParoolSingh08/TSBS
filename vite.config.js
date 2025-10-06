@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     assetsInclude: ['**/*.otf'] // 👈 ensures .otf fonts are bundled
-  }
+  },
+  publicDir: 'public',
 })
