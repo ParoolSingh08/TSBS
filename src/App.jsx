@@ -11,7 +11,7 @@ import PdfDownloads from "./components/PdfDownloads";
 
 export default function App() {
   return (
-    <Router basename="/TSBS">
+    <>
       {/* Mouse shadow will be on all pages */}
       <MouseShadow />
 
@@ -22,6 +22,6 @@ export default function App() {
         <Route path='/download' element={<PdfDownloads/>} />
 
       </Routes>
-    </Router>
+    </>
   );
 }
